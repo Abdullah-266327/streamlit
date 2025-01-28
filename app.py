@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load the pre-trained model
-model = joblib.load('C:\\Users\\Ch Abdullah\\Desktop\\ML_ASS4\\svm.pkl')
+model = joblib.load('https://github.com/Abdullah-266327/streamlit/blob/main/svm.pkl')
 
 # Set the title of the app
 st.title("SVM Prediction Application")
